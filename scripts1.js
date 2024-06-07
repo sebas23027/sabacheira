@@ -29,9 +29,11 @@ const fotosEquipaJogos = [
 ];
 
 const fotosEventos = [
-    { src: "campo.png", alt: "Evento 1" },
-    { src: "evento1.jpg", alt: "Evento 2" },
-    { src: "evento1.jpg", alt: "Evento 3" }
+    { src: "eventos/evento1.jpg", alt: "Evento 1" },
+    { src: "eventos/evento2.jpg", alt: "Evento 2" },
+    { src: "eventos/evento3.jpg", alt: "Evento 3" },
+    { src: "eventos/evento4.jpg", alt: "Evento 2" },
+    { src: "eventos/evento5.jpg", alt: "Evento 2" }
 ];
 
 function criarMosaicoJogadores(jogadores) {
@@ -124,5 +126,4 @@ document.getElementById('categoria').addEventListener('change', handleCategoriaC
 
 criarMosaicoJogadores(jogadores);
 showFotosEquipaJogos();
-
 
