@@ -1,0 +1,120 @@
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+header {
+  background-color: #fb251d;
+  color: white;
+  padding: 1rem;
+  border-bottom: 4px solid black;
+  border-radius: 4px;
+  box-shadow: 0 0 20px 0 black;
+}
+nav {
+  
+  padding: 20px;
+  text-align: center;
+  
+}
+
+menu {
+      font-size: 20px;
+      background: #ccc;
+
+}
+
+.desa {
+  color: white;
+  margin: 0 20px;
+  background-color: black;
+  padding: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.ativado {
+  color: black;
+  font-weight: bold;
+  margin: 0 20px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+main {
+  padding: 16px;
+}
+
+footer {
+  background-color: #fb251d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+#jogador-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+  background-color: #fb251d;
+  border: 2px solid #fb251d ;
+  padding: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 12px;
+  color: white;
+}
+
+#jogador-info img {
+  margin-top: 35px;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;}
+
+button {
+  margin: 8px;
+  cursor: pointer;
+  background: #fb251d;
+  border: 1px solid #fb251d;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+}
+
+.equipa-jogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.equipa-jogos img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

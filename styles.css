@@ -1,0 +1,248 @@
+
+body{
+    background: rgb(251,182,182);
+    background: linear-gradient(0deg, rgba(251,182,182,1) 0%, rgba(253,29,29,1) 53%);
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+header {
+    background-color: #fb251d;
+    color: white;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 black;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+}
+
+menu {
+    font-size: 20px;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.desa {
+    color: white;
+    margin: 0 20px;
+    background-color: black;
+    padding: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.ativado {
+    color: black;
+    font-weight: bold;
+    margin: 0 20px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+main {
+    padding: 16px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+#jogador-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+    background-color: #fb251d;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 0 20px 0 black;
+}
+
+#jogador-info img {
+    margin-top: 35px;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    margin: 8px;
+    cursor: pointer;
+    background: #fb251d;
+    border: 1px solid #fb251d;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+}
+
+.equipa-jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.equipa-jogos img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.foto-jogo {
+    display: inline-block;
+    margin: 10px;
+}
+
+.jogo-img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#dia_img {
+    border-radius: 4px;
+    max-width: 500px;
+    border: 2px black solid;
+}
+
+#dia_jogo {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jogo-img.zoom {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
+.redes_sociais {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#mosaico-jogadores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.jogador-item {
+    border: 2px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jogador-img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.jogador-img:hover {
+    transform: scale(1.1);
+}
+
+
+.overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 200px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.overlay p {
+    margin: 10px 0;
+}
+
+.overlay button {
+    margin-top: 16px;
+    background-color: #fb251d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background-color: #ff4b4b;
+}
+
+
+
+#Logo {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 150px;
+    height: auto;
+}

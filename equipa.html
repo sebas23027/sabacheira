@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipa-GDRSabacheira</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h1>GDRSabacheira</h1>
+        <h2>Sobre a Equipa</h2>
+        <img id="Logo" src="sabacheira.png">
+    </header>
+    <menu> 
+        <nav> 
+            <a href="index.html" class="desa">Home</a> | <a href="clube.html" class="desa">Sobre o Clube</a> | <a href="equipa.html" class="ativado">Sobre a Equipa</a>
+        </nav>
+    </menu>
+    <main>
+        <h2>Jogadores</h2>
+        <h3>Posições:</h3>
+        <select id="categoria">
+            <option value="todos" >Todos</option>
+            <option value="guarda-redes" >Guarda-Redes</option>
+            <option value="defesas" >Defesas</option>
+            <option value="medios" >Médios</option>
+            <option value="avancados" >Avançados</option>
+            <option value="treinadores" >Treinadores</option>
+        </select>
+        
+        <div id="mosaico-jogadores"></div>
+        <div id="jogador-info-overlay" class="overlay">
+            <img id="jogador-img-overlay" src="" alt="Imagem do jogador">
+            <p id="jogador-nome-overlay"></p>
+            <p id="jogador-numero-overlay"></p>
+            <p id="jogador-posicao-overlay"></p>
+            <button id="fechar-overlay">Fechar</button>
+        </div>
+        <h3>Equipa:</h3>
+        <div id="equipa-jogos" class="equipa-jogos"></div>
+    </main>
+    <footer>
+        <nav>
+            <a href="https://www.instagram.com/gdrsabacheira?igsh=cWNwdXJhaHEyMTR4"><img src="instagram.png" class="redes_sociais" alt="Instagram"></a>
+            <a href="https://www.facebook.com/GdrSabacheira"><img src="facebook.png" alt="Facebook" class="redes_sociais"></a>
+            <a href="https://www.zerozero.pt/equipa/sabacheira/17662"><img src="zerozero.png" alt="zerozero" class="redes_sociais"></a>
+        </nav>
+        <p>&copy; GDRSabacheira. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts1.js"></script>
+</body>
+</html>
+
+
+
