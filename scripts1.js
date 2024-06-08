@@ -96,9 +96,29 @@ function showFotosEquipaJogos() {
         imgElement.alt = foto.alt;
         imgElement.classList.add('jogo-img');
 
+        imgElement.addEventListener('click', () => {
+            showFotosEquipaJogosOverlay(foto); // Chama a função para exibir as informações do jogador
+        });
+
         fotoDiv.appendChild(imgElement);
         equipaJogosContainer.appendChild(fotoDiv);
     });
+}
+
+function showFotosEquipaJogosOverlay(foto){
+    const over=document.getElementById('equipa-overlay');
+    const imgOver=document.getElementById('equipa-img-overlay');
+    const fecharOver = document.getElementById('fechar-imagem');
+
+    imgOver.src=foto.src;
+    over.style.display='flex';
+
+    fecharOver.addEventListener('click', () => {
+        over.style.display = 'none';
+    });
+
+    
+
 }
 
 function showEventos() {
@@ -126,4 +146,5 @@ document.getElementById('categoria').addEventListener('change', handleCategoriaC
 
 criarMosaicoJogadores(jogadores);
 showFotosEquipaJogos();
+
 
