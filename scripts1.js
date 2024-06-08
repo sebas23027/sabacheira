@@ -16,7 +16,7 @@ const jogadores = [
     { nome: "Rui Duarte",numero: 31, posicao: "Médio Defensivo", imagem: "Jogadores/ruiduarte.jpg", categoria: "medios" },
     { nome: "Sebastião Duarte",numero: 22, posicao: "Extremo Direito", imagem: "Jogadores/sebas.jpg", categoria: "avancados" },
     { nome: "Bicho",numero: 77, posicao: "Tudo", imagem: "Jogadores/tiago.jpg", categoria: "defesas" },
-    { nome: "Conde",numero: 77, posicao: "", imagem: "Jogadores/conde.png", categoria: "trabalhador" },
+    { nome: "Conde",numero: 77, posicao: "No trabalho", imagem: "Jogadores/conde.png", categoria: "trabalhador" },
     { nome: "António Stoffel",numero: 77, posicao: "Medio", imagem: "Jogadores/stof.png", categoria: "Medio" },
     { nome: "João Santos", posicao: "Treinador", imagem: "Jogadores/Treinadores.jpg", categoria: "treinadores" },
     { nome: "Gonçalo Duarte", posicao: "Treinador", imagem: "Jogadores/Treinadores.jpg", categoria: "treinadores" },
