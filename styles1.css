@@ -428,6 +428,11 @@ footer nav img:hover{
         width: 60px;
     }
 
+    .jogador-item {
+        width: 50%;
+        margin: 0 auto;
+    }
+
     #informacoes {
         flex-direction: column;
         gap: 1rem;
