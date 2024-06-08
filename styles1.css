@@ -437,6 +437,11 @@ footer nav img:hover{
         max-width: 100%;
     }
 
+    #jogador-info-overlay {
+        width: 70%;
+        max-width: none;
+    }
+
     #mapa {
         padding-bottom: 100%; /* Aspect ratio 1:1 para telefones */
     }
